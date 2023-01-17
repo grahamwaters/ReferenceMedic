@@ -18,15 +18,15 @@ Reference Medic currently supports the following file structure rules:
 - .py files are now in ../src
 - .txt files are in ../txt
 ## For Python Scripts
--If the file being referenced is a .json file, the relative path will be changed to ./config/{filename}
--If the file being referenced is a .csv file, the relative path will be changed to ./config/{filename}
--.html files are now stored in the ./html folder
--.css files are in the ./css folder
--Any image files (.jpg, .jpeg, .png, .gif) are now in the ./images folder
--.log files are in the ./logs folder
--.py files are now in ./src
--.txt files are in ./txt
--Any other file types will raise an error.
+- If the file being referenced is a .json file, the relative path will be changed to ./config/{filename}
+- If the file being referenced is a .csv file, the relative path will be changed to ./config/{filename}
+- .html files are now stored in the ./html folder
+- .css files are in the ./css folder
+- Any image files (.jpg, .jpeg, .png, .gif) are now in the ./images folder
+- .log files are in the ./logs folder
+- .py files are now in ./src
+- .txt files are in ./txt
+- Any other file types will raise an error.
 
 # Before Reference Medic
 ```python
