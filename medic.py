@@ -6,8 +6,6 @@ from pathlib import Path
 def ReferenceMedic(folder):
     """
     ReferenceMedic is a function that will fix the references in the files in the folder.
-
-
     :param folder: the folder (your main repository folder) that contains the subdirectories and files that need to be fixed.
     :type folder: path to folder
     """
